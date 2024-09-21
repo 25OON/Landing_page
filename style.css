@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+button{
+    background-color:#3882F6;
+    color: white;
+}
+li,
+.ftext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.logo{
+   color:#F9FAF8; 
+   font-size: 24px;
+}
+.header,
+.footer{
+    background-color:#1f2937;
+}
+.second_part{
+    background-color:#e5e7eb ;
+}
+
+.intro{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.context{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+/*the given information*\
+
