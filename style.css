@@ -1,12 +1,21 @@
 body{
-    margin: 0;
+    font-family: Roboto;
 }
-
-button{
-    background-color:#3882F6;
-    color: white;
+button {
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
 }
-li,
+a{
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;
+}
 .ftext{
     color: #e5e7eb;
     font-size: 18px;
@@ -20,10 +29,12 @@ li,
 .logo{
    color:#F9FAF8; 
    font-size: 24px;
+   font-weight: bold;
 }
-.header,
-.footer{
+header,
+footer{
     background-color:#1f2937;
+    color:white;
 }
 .second_part{
     background-color:#e5e7eb ;
@@ -40,5 +51,92 @@ li,
     font-style: italic;
     color: #1f2937;
 }
-/*the given information*\
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+/*the given information*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+.first_header
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 200px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.second_header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 100px 200px;
+    gap:40px
+}
+.context
+{
+    flex: 1;
+}
+.first_part{
+    text-align: center;
+    padding: 50px 0;
+}
+.info_container{
+    display: flex;
+    justify-content: center;
+    gap:52px;
+    margin-top:50px;
+}
+.info{
+    max-width: 200px;
+}
+
+.block{
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 4px;
+    margin-bottom: 100px 300px;
+}
+.second_part{
+    padding: 100px 300px;
+}
+.author{
+    text-align: right;
+}
+.third_part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    margin: 100px 200px;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 10px;
+}
+
+.third_part button
+{
+    border: 2px solid white;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+    margin-top: auto;
+}
 
